@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Challenge — Team Cards</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--
+        ===================================================
+        CSS CHALLENGE · Team Cards
+        1. Open challenge-solution.html to see the TARGET.
+        2. Add your own classes to the elements below.
+        3. Style EVERYTHING in challenge-styles.css. Research the 🔍 bits.
+        Images already work (they load from the web). You can
+        change the ?img=NN number to pick a different face.
+        ===================================================
+    -->
+        <!-- header section -->
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img height="100" width="150" src="image/team icon.png" alt="campuscode Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="blogs.html">Blogs</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <h1 class="team-logo">
+                <span class="team-text">Team</span><span class="hub-text">Hub</span>
+        </h1>
+        <p>People, Skills, and Stories</p>
+        <div class="logo-bars">
+            <span class="blue"></span>
+            <span class="purple"></span>
+            <span class="green"></span>
+        </div>
+        <!-- TODO: this wrapper should hold the 3 cards in a responsive row -->
+        <div class="card-wrapper">
+            <!-- ===== CARD 1 ===== -->
+            <div class="card">
+                <div class="banner"></div>
+                <div class="avatar-container">
+                    <img class="avatar" src="https://i.pravatar.cc/300?img=12" alt="Aisha's photo">
+                    <span class="online"></span>
+                </div>
+                <h3 class="name">Aisha Bello</h3>
+                <p class="role">Developer</p>
+                <p class="bio"> clean UI, coffee, and arguing about tabs vs spaces.</p>
+                <div class="skills">
+                    <span>React</span>
+                    <span>CSS</span>
+                    <span>Figma</span>
+                </div>
+                <button>Follow</button>
+            </div>
+            <!-- ===== CARD 2 ===== -->
+            <div class="card">
+                <div class="banner"></div>
+                <div class="avatar-container">
+                    <img class="avatar" src="https://i.pravatar.cc/300?img=33" alt="Tunde's photo">
+                    <span class="online"></span>
+                </div>
+                <h3 class="name">Tunde Okafor</h3>
+                <p class="role">Engineer</p>
+                <p class="bio">coffee into APIs. Will optimise a query for fun.</p>
+                <div class="skills">
+                    <span>Node</span>
+                    <span>SQL</span>
+                    <span>Docker</span>
+                </div>
+                <button>Follow</button>
+            </div>
+            <!-- ===== CARD 3 ===== -->
+            <div class="card">
+                <div class="banner"></div>
+                <div class="avatar-container">
+                    <img class="avatar" src="https://i.pravatar.cc/300?img=45" alt="Chioma's photo">
+                    <span class="online"></span>
+                </div>
+                <h3 class="name">Chioma Eze</h3>
+                <p class="role"> Designer</p>
+                <p class="bio">Thinks in user flows and whitespace.</p>
+                <div class="skills">
+                    <span>UX</span>
+                    <span>Figma</span>
+                    <span>CSS</span>
+                </div>
+                <button>Follow</button>
+            </div>
+        </div>
+        </div>
+    </body>
+ </html>
